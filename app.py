@@ -86,9 +86,6 @@ if not DATA_DIR.exists():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 CONFIG = {
     "MODELS": {
-        'grok-2': 'grok-latest',
-        'grok-2-imageGen': 'grok-latest',
-        'grok-2-search': 'grok-latest',
         "grok-3": "grok-3",
         "grok-3-search": "grok-3",
         "grok-3-imageGen": "grok-3",
